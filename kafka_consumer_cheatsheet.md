@@ -8,7 +8,7 @@ kafka-consumer-groups --list --bootstrap-server <kafkahost:port>
 
 ## Search/Find for consumer group you are looking for
 ```bash
-kafka-consumer-groups --list --bootstrap-server <kafkahost:port> | grep supply_lodging_availability_eg_v
+kafka-consumer-groups --list --bootstrap-server <kafkahost:port> | grep <text to search>
 ```
 
 ## List the topics and offsets to which the group is subscribed
