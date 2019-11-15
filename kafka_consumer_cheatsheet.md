@@ -50,7 +50,7 @@ kafka-consumer-groups --bootstrap-server <kafkahost:port> --group <group_id> --t
 kafka-consumer-groups --bootstrap-server <kafkahost:port> --group <group_id> --topic <topic_name> --reset-offsets --to-latest --execute
 ```
 ```bash
-kafka-consumer-groups --bootstrap-server <kafkahost:port> --group <group_id> --topic <topic_name> --reset-offsets --to-datetime 2017-08-04T00:00:00.000
+kafka-consumer-groups --bootstrap-server <kafkahost:port> --group <group_id> --topic <topic_name> --reset-offsets --to-datetime 2019-11-11T00:00:00.000
 ```
 DATETIME format is yyyy-MM-ddTHH:mm:ss.xxx
 ```bash
